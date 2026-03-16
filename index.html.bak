@@ -14,7 +14,7 @@
     body{background:var(--black);color:var(--white);font-family:'DM Sans',sans-serif;font-weight:300;overflow-x:hidden}
     nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:24px 48px;background:linear-gradient(to bottom,rgba(8,8,8,.97),transparent)}
     .nav-logo{font-family:'Bebas Neue',sans-serif;font-size:1.8rem;letter-spacing:4px;color:var(--white);text-decoration:none}
-    
+    .nav-logo span{color:var(--teal)}
     .nav-links{display:flex;gap:36px;list-style:none;align-items:center}
     .nav-links a{color:var(--gray);text-decoration:none;font-size:.85rem;letter-spacing:1px;text-transform:uppercase;transition:color .2s}
     .nav-links a:hover{color:var(--white)}
@@ -123,7 +123,7 @@
 <body>
 
 <nav>
-  <a href="/" class="nav-logo"><span style="color:#F5F5F0">WALL</span><span style="color:#00E5CC">IVE</span></a>
+  <a href="/" class="nav-logo">WALL<span>IVE</span></a>
   <ul class="nav-links">
     <li><a href="#how">How it works</a></li>
     <li><a href="#demo">Live demo</a></li>
@@ -234,15 +234,7 @@
 <section class="demo" id="demo">
   <p class="section-label">Live demo · Kraków</p>
   <h2 class="section-title">See it working<br>right now.</h2>
-  <div class="demo-cta-block" style="margin-top:32px;margin-bottom:48px;display:flex;align-items:center;gap:32px">
-      <img src="assets/qr.png" alt="QR code" style="width:110px;height:110px;background:#fff;padding:8px;display:block;flex-shrink:0" />
-      <div>
-        <p style="font-size:.75rem;letter-spacing:2px;text-transform:uppercase;color:#666;margin-bottom:8px">Scan or open on your phone</p>
-        <a href="https://ropeable-financially-hester.ngrok-free.dev" target="_blank" style="font-family:'Bebas Neue',sans-serif;font-size:1.4rem;letter-spacing:2px;color:#00E5CC;text-decoration:none">wallive app</a>
-        <br><span style="font-size:.75rem;color:#444;letter-spacing:1px">ropeable-financially-hester.ngrok-free.dev</span>
-      </div>
-    </div>
-    <div class="demo-grid reveal">
+  <div class="demo-grid reveal">
     <div class="demo-left">
       <p>Open the link on your phone and point the camera at the Lajkonik illustration — the symbol of Kraków since 1287. Watch him come alive through your screen.</p>
       <img src="assets/targets/target.jpg" alt="Lajkonik — point your camera here" class="demo-lajkonik" />
@@ -385,7 +377,7 @@
 <footer>
   <div class="footer-top">
     <div class="footer-brand">
-      <a href="/" class="nav-logo"><span style="color:#F5F5F0">WALL</span><span style="color:#00E5CC">IVE</span></a>
+      <a href="/" class="nav-logo">WALL<span>IVE</span></a>
       <p>AR platform for cities and cultural institutions. MVP: Kraków, Poland. Scaling across Europe.</p>
     </div>
     <div class="footer-links">
